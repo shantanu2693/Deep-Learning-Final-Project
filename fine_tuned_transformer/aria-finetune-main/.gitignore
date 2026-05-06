@@ -1,0 +1,70 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE
+.vscode/
+.idea/
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets (never commit)
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# Finetuning / ML artifacts (large, generated)
+data/
+datasets/
+out/
+outputs/
+runs/
+checkpoints/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+logs/
+
+# Hugging Face / transformers caches
+.cache/
+**/.cache/huggingface/
+hf_cache/
+
+# Model artifacts (keep only lightweight docs)
+models/**
+!models/
+!models/README.txt
+!models/.gitkeep
